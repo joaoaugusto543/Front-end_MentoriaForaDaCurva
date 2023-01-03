@@ -1,0 +1,136 @@
+.investimento{
+    margin: 2em 0;
+}
+
+.investimento h3{
+    font-size: 50px;
+    margin: 1em 0;
+    text-align: center;
+    color:#222;
+}
+
+.cardInvestimento{
+    background-color:rgb(248, 99, 123);
+    padding: 2em;
+}
+
+.investimento li{
+    font-size: 30px;
+    color: #222;
+    margin-left: 5%;
+    padding: 0.5em;
+}
+
+.button{
+    display: flex;
+    margin: 1em 0;
+    width: 500px;
+    height: 100px;
+    border-radius:70px ;
+    font-size: 30px;
+    background-color: pink;
+    transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.button:hover{
+    background-color:rgb(255, 35, 71);
+    color: pink;
+
+}
+
+.cardInvestimento a{
+    text-decoration: none;
+}
+
+.button svg{
+    padding: 0.2em;
+}
+
+.pagamento p{
+    font-size: 30px;
+}
+
+.pagamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+@media(max-width:872px){
+    .pagamento p{
+        font-size: 25px;
+    } 
+
+    .investimento li{
+        font-size: 25px;
+    }
+
+    .investimento h3{
+        font-size: 45px;
+    }
+}
+
+@media(max-width:600px){
+
+    .button{        
+        width: 400px;
+        height: 80px;
+        font-size: 25px;
+    }
+       
+}
+
+@media(max-width:482px){
+    .button{
+        width: 300px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .pagamento p{
+        font-size: 20px;
+    } 
+
+    .investimento li{
+        font-size: 20px;
+    }
+
+    .investimento h3{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:337px){
+    .button{
+        width: 230px;
+        height: 60px;
+        font-size: 15px;
+    }
+
+    .pagamento p{
+        font-size: 18px;
+    } 
+
+    .investimento li{
+        font-size: 18px;
+    }
+
+    .investimento h3{
+        font-size: 35px;
+    }
+}
+
+@media(max-width:298px){
+ 
+    .investimento h3{
+        font-size: 30px;
+    }
+}
+
+
+
+

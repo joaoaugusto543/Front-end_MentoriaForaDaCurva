@@ -1,0 +1,30 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: 0;
+  font-family: 'Open Sans',sans-serif;
+}
+html,body,#root{
+  background-color: pink;
+  height: 100%;
+}
+
+.container{
+  margin:0 10%;
+}
+
+@media(max-width:1392px){
+  .container{
+    margin: 0 5%;
+  }
+
+}
+
+@media(max-width:414px){
+  .container{
+    margin: 2% ;
+  }
+}
+
+
+
