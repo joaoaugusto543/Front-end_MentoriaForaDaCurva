@@ -4,7 +4,7 @@ function Aulas({numeroDaAula,temas,nomeDaAula}){
     return(
         <div className={Styles.aulas}>
             <div className={Styles.aula}>
-                <div className={Styles.bolinha}><p>Aula&nbsp;{numeroDaAula}</p></div>
+                <div className={Styles.bolinha}><p>Aula {numeroDaAula}</p></div>
                 <div>
                     <h3>{nomeDaAula}</h3>
                     <ul>
