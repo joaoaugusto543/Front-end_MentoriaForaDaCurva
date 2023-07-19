@@ -1,18 +1,15 @@
-import Apelo from "./componentes/partes/apelo";
-import Apresentacao from "./componentes/partes/apresentacao";
-import Beneficios from "./componentes/partes/beneficios";
-import FuncionamentoDoCurso from "./componentes/partes/funcionamentoDoCurso";
-import SobreNos from "./componentes/partes/SobreNos";
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Home from './pages/Home/Home';
+import Footer from './componentes/Footer/Footer';
 
 function App() {
   return (
-    <div className='container'>
-     <Apresentacao/>
-     <SobreNos/> 
-     <FuncionamentoDoCurso/>
-     <Beneficios/>
-     <Apelo/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path='/' element={<Home/>}/>
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
   );
 }
 
