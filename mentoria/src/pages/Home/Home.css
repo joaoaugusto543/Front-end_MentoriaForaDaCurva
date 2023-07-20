@@ -221,7 +221,8 @@
 
 .left,.leftMobile{
     opacity: 0;
-    cursor:default
+    cursor:default;
+    user-select: none;
 }
 
 .rightMobile,.leftMobile{
