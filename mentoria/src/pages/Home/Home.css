@@ -217,12 +217,12 @@
     font-size: 40px;
     cursor: pointer;
     color: #AA5585;
+    user-select: none;
 }
 
 .left,.leftMobile{
     opacity: 0;
     cursor:default;
-    user-select: none;
 }
 
 .rightMobile,.leftMobile{
