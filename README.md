@@ -1,5 +1,5 @@
 # MentoriaForaDaCurva
 
-![site](https://github.com/joaoaugusto543/MentoriaForaDaCurva/assets/119535029/96f106b0-5205-4895-ae17-c53ffa0aaeee)
+![site](https://github.com/joaoaugusto543/MentoriaForaDaCurva/assets/119535029/64b730eb-dc71-41e6-a352-be89bdd21f09)
 
 https://mentoriaforadacurvaparaenfermeiros.netlify.app/
